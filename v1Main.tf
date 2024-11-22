@@ -31,7 +31,7 @@ resource "aws_instance" "DB_Server" {
   vpc_security_group_ids = [aws_security_group.MyFirst_SG.id]
 
   tags = {
-    Name = "DB_Server"
+    Name = "DataBase_Server"
   }
   
 }
